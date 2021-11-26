@@ -1,0 +1,37 @@
+.paginationBttns {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.paginationBttns a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 8px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0,
+		rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+	box-sizing: border-box;
+	color: #3c4043;
+	background-color: #fff;
+	border-radius: 5px;
+
+	cursor: pointer;
+}
+
+.paginationBttns a:hover {
+	background: #f6f9fe;
+	color: #174ea6;
+}
+
+.paginationActive a {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+		rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	outline: none;
+}
+
+.paginationDisabled a {
+	box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+		rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
